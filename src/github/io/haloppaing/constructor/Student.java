@@ -7,11 +7,11 @@ public class Student {
     String gender;
     String religion;
 
-    Student(String id, String firstname, String lastname, String gender, String religion) {
-        this.id        = id;
-        this.firstname = firstname;
-        this.lastname  = lastname;
-        this.gender    = gender;
-        this.religion  = religion;
+    Student(String idParam, String firstnameParam, String lastnameParam, String genderParam, String religionParam) {
+        id        = idParam;
+        firstname = firstnameParam;
+        lastname  = lastnameParam;
+        gender    = genderParam;
+        religion  = religionParam;
     }
 }
